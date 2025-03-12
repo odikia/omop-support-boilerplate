@@ -2,7 +2,7 @@
 
 Welcome! 
 
-This all started with 2025 Trump Administration funding caps on the NIH down to 15%. We need to collaborate quickly to support one another's implementations of OMOP, so I put together some boilerplate. As always, and in OHDSI fashion, this is absolutely open to contribution, comment, and feedback.
+This all started with 2025 Trump Administration funding caps on the NIH indirect costs down to 15%. We need to collaborate quickly to support one another's implementations of OMOP, so I put together some boilerplate. As always, and in OHDSI fashion, this is absolutely open to contribution, comment, and feedback.
 
 ## Cross post to OHDSI Forums
 
