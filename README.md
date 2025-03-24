@@ -12,3 +12,10 @@ https://forums.ohdsi.org/t/local-omop-support-boilerplate-given-nih-funding-cuts
 
 ## Contribution Guidelines
 Feel free to fork and contribute back up via PR! I'm also open to pushing to a central repo managed elsewhere by likeminded group of folks. The only point to consider for contribution to the current repo is that this is Apache-2.0 licenced, so contributions should be pretty permissive
+
+# Resources
+
+## OMOP Supporting Documents
+- [Continued Departmental Support](/continued-departmental-support/)
+## Software Comparisons
+- [comparisons_v3](/software_comparison/comparisons_v3.html)
