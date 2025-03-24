@@ -16,6 +16,10 @@ Feel free to fork and contribute back up via PR! I'm also open to pushing to a c
 # Resources
 
 ## OMOP Supporting Documents
-- [Continued Departmental Support](/continued-departmental-support/)
+- [Continued Departmental Support - Intro](/continued-departmental-support/readme.md)
+- OMOP Support Documents for Leadership
+  - [Markdown](/continued-departmental-support/omop_support.md)
+  - [Word Doc](/continued-departmental-support/omop_support.docx)
+  - [Google Doc](https://drive.google.com/drive/folders/1uHjSk8gUO85d_lx4dQHyaTDAvG8slJAT?usp=sharing)
 ## Software Comparisons
 - [comparisons_v3](/software_comparison/comparisons_v3.html)
