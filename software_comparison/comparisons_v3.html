@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Comparison Chart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td:first-child, th:first-child {
+            text-align: left;
+        }
+        tr:hover {background-color: #f1f1f1;}
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+        .section-header {
+            background-color: #e2e2e2;
+            font-weight: bold;
+            text-align: left;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Software Comparison Chart</caption>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Report Workbench</th>
+                <th>Slicer Dicer</th>
+                <th>Cosmos</th>
+                <th>Nference</th>
+                <th>IOMED</th>
+                <th>OHDSI</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="section-header"><td colspan="7">Patient Data Characteristics</td></tr>
+            <tr><td>Real-time</td><td>✅</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Identified</td><td>✅</td><td>✅</td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>De-identified</td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Multi-source</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Federated</td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Harmonized</td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Common Data Model</td><td>--</td><td>--</td><td>Epic Proprietary</td><td>Nference CDM</td><td>OMOP</td><td>OMOP</td></tr>
+            <tr><td>Research ready</td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+
+            <tr class="section-header"><td colspan="7">Customization</td></tr>
+            <tr><td>ML Models</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Ontology</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Data model</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Tooling</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Compute platform</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Data egress</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+
+            <tr class="section-header"><td colspan="7">Reliability/Validity Assessments</td></tr>
+            <tr><td>Community review</td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Initial methods research conducted</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Initial methods research with peer-review publication</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Ongoing methods research conducted</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Ongoing methods research with peer-review publication</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+
+            <tr class="section-header"><td colspan="7">Transparency</td></tr>
+            <tr><td>Community accessible documentation of models</td><td>✅</td><td>✅</td><td>✅</td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Community accessible documentation of algorithms</td><td>--</td><td>--</td><td>--</td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Published and peer-reviewed models</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Published and peer-reviewed algorithms</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Open source</td><td></td><td></td><td></td><td></td><td></td><td>✅</td></tr>
+
+            <tr class="section-header"><td colspan="7">Research Productivity</td></tr>
+            <tr><td>International Reach</td><td>--</td><td>--</td><td>2 continents</td><td>1 continent</td><td>1 continent</td><td>6 continents</td></tr>
+            <tr><td>Countries Contributing Data</td><td>--</td><td>--</td><td>5</td><td>1</td><td>4</td><td>54</td></tr>
+            <tr><td>Publication Count</td><td>--</td><td>--</td><td>65</td><td>16</td><td>20</td><td>735</td></tr>
+            <tr><td>Data Source Count</td><td>--</td><td>--</td><td>289</td><td>5</td><td>14</td><td>544</td></tr>
+            <tr><td>Minimal documented time from idea to manuscript</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>7 days</td></tr>
+            
+            <tr class="section-header"><td colspan="7">Ease of Use for Users to Conduct Research Activities</td></tr>
+            <tr><td>Create Custom ML Models</td><td>--</td><td>--</td><td>--</td><td>✅</td><td></td><td></td></tr>
+            <tr><td>Easy Cohort Creation</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td></td><td></td></tr>
+            <tr><td>Sharable Cohorts Within Institute</td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Sharable Cohorts Across Institutes</td><td>--</td><td>--</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Review Quality of Data Set</td><td>--</td><td>--</td><td>--</td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Generate Cohort/Study Reliability Assessments</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Generate Cohort/Study Validity Assessments</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
+            <tr><td>Generate Study Protocol</td><td></td><td></td><td></td><td></td><td></td><td>✅</td></tr>
+            <tr><td>Generate Readily Reproducible Study Packages</td><td></td><td></td><td></td><td></td><td></td><td>✅</td></tr>
+            
+            <tr class="section-header"><td colspan="7">Time and Costs</td></tr>
+            <tr><td>Licensing Model</td><td>--</td><td>--</td><td>?? One time ??</td><td>per use/compute</td><td>differs by contract</td><td>Open Source (Site absorbs full costs/responsibility)</td></tr>
+            <tr><td>Time to Stand Up</td><td>--</td><td>--</td><td>?? 1.5 years ??</td><td>??</td><td></td><td>1.5 years</td></tr>
+            <tr><td>Cost to Stand Up</td><td>--</td><td>--</td><td>??</td><td>??</td><td></td><td>??</td></tr>
+            <tr><td>Cost to Maintain</td><td>--</td><td>--</td><td>??</td><td>??</td><td></td><td>??</td></tr>
+            <tr><td>Upgrade Model</td><td>--</td><td>--</td><td>At vendor discretion</td><td>At vendor discretion</td><td>OHDSI + At vendor discretion</td><td>OHDSI community</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
